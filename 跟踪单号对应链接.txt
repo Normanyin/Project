@@ -1,0 +1,3 @@
+LN -> www.usps.com
+LM -> http://www.canadapost.ca/cpotools/apps/track/personal/findByTrackNumber?execution=e1s1
+LX -> http://auspost.com.au/track/track.html

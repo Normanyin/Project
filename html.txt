@@ -1,0 +1,765 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/><script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok2v=1613a3a185/"},atok:"dcb1d8f5c0d75a87ad7bdaa04ef9536a",petok:"b0e4eb7826cbb6d29759939332e05144451485a2-1420025064-7200",zone:"packagetrackr.com",rocket:"0",apps:0}];CloudFlare.push({"apps":{"ape":"ac287b39566ec0007b9baee77d0b1be3"}});!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok2v=919620257c/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"beacon-3.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"2d5f3728de","applicationID":"5473228","transactionName":"MVMDYxRQXhVTVUcPVwgZJVgSf1UScVldEkoJWg1SFB5kFFNVWEl/A1gERQdd","queueTime":15,"applicationTime":178,"ttGuid":"95D5515FDA90A350","agent":"js-agent.newrelic.com/nr-476.min.js"}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);</script>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<meta name="search.app" content="WindowsLive"/>
+<meta property="og:title" content="Packagetrackr"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://www.packagetrackr.com/"/>
+<meta property="og:image" content="https://r2.ptrss.com/img/iphone-touch-icon.png"/>
+<meta property="og:site_name" content="Packagetrackr"/>
+<meta property="fb:admins" content="659057078"/>
+<meta name="robots" content="noindex"/>
+<title>Canada Post Tracking @ Packagetrackr</title>
+<meta name="description" content="Packagetrackr knows your Canada Post package (#:LM920934240CN) Delivered to KAMLOOPS, BC, CANADA as of Thursday, December 11, 2014 9:14 AM"/>
+<meta name="keywords" content="packagetrackr, package tracking, package tracker, canada post tracking, canada post tracking number, canada post package"/>
+<link href="//r1.ptrss.com" rel="dns-prefetch"/>
+<link href="//r2.ptrss.com" rel="dns-prefetch"/>
+<link href="//ajax.cloudflare.com" rel="dns-prefetch"/>
+<link href="//pagead2.googlesyndication.com" rel="dns-prefetch"/>
+<link href="//rcm-na.amazon-adsystem.com" rel="dns-prefetch"/>
+<link href="//ajax.googleapis.com" rel="dns-prefetch"/>
+<link href="//chart.googleapis.com" rel="dns-prefetch"/>
+<link href="//apis.google.com" rel="dns-prefetch"/>
+<link href="//fonts.googleapis.com" rel="dns-prefetch"/>
+<link href="//ssl.google-analytics.com" rel="dns-prefetch"/>
+<link href="//ssl.gstatic.com" rel="dns-prefetch"/>
+<link href="//www.gstatic.com" rel="dns-prefetch"/>
+<link href="//www.facebook.com" rel="dns-prefetch"/>
+<link href="//platform.twitter.com" rel="dns-prefetch"/>
+<link href="//fbstatic-a.akamaihd.net" rel="dns-prefetch"/>
+<link href="//www.googletagservices.com" rel="dns-prefetch"/>
+<link rel="apple-touch-icon" title="Packagetrackr" href="https://r1.ptrss.com/img/apple-touch-icon-precomposed.png"/>
+<link rel="stylesheet" type="text/css" href="https://r1.ptrss.com/css/en/0.1059/aio.home.track.css" media="all"/>
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="https://r1.ptrss.com/css/en/0.1059/ie.css" media="all" /><![endif]-->
+<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="https://r2.ptrss.com/css/en/0.1059/ie6.css" media="all" /><![endif]-->
+<style type="text/css">#body-container.body-container-padding{padding-right:316px;}body{min-width:1325px;}.limited-width{max-width:1280px;}img.rim{padding:5px;border:1px solid #ddd;}body{min-width:1080px;}</style>
+<link rel="canonical" href="https://www.packagetrackr.com/track/canada-post"/>
+<link rel="search" type="application/opensearchdescription+xml" title="Packagetrackr" href="https://r1.ptrss.com/app/osd.xml"/>
+</head>
+<body>
+<div id="noscript-seo-header" style="position: absolute; left: -5000px;">
+<h1><a href="https://www.packagetrackr.com/"><strong>Packagetrackr / Universal Package Tracking Service</strong></a></h1>
+<hr/>
+<h2><a href="https://www.packagetrackr.com/">Packagetrackr knows your Canada Post package (#:LM920934240CN) Delivered to KAMLOOPS, BC, CANADA as of Thursday, December 11, 2014 9:14 AM</a></h2>
+</div>
+<div id="loading-container" class="hidden">
+<div id="loading" style="display: none;">
+Loading...
+</div>
+</div>
+<a name="top"></a>
+<div style="background:#353c56;padding:7px 10px 8px 10px;border-bottom:5px solid #3a415b;min-height:20px;">
+<div class="limited-width font-normal" style="margin:0 auto;text-align:right;position:relative;">
+<div id="fb-link-container" style="position:absolute;left:0;height:25px;display:none;"></div>
+<span id="google-p1" data-size="medium" data-href='https://www.packagetrackr.com'></span>
+</div>
+</div>
+<div id="header-container">
+<div id="header" class="limited-width">
+<h1 id="logo">
+<a href="https://www.packagetrackr.com/" class="logo" title="Packagetrackr" style="position: absolute; left: -900000px;">Packagetrackr</a>
+<a href="https://www.packagetrackr.com/" class="logo" title="Packagetrackr"><span class="logo sprite-master" style="height:55px;">Packagetrackr</span></a>
+</h1>
+<h2 id="slogan">
+<i>Don't worry, we know where your stuff is.</i>
+</h2>
+<div id="topnav-container" class="font-normal" style="width: 500px;">
+<ul class="nav">
+<li class="nav nav-first">
+<a href="https://www.packagetrackr.com/help/carriers" class="nav radius" title="Help">Help</a> - <a href="https://www.packagetrackr.com/whatsnew" class="shared radius" title="What's new for Packagetrackr">What's New</a>
+</li>
+</ul>
+</div>
+<div id="top-navigation" class="font-normal limited-width">
+<ul class="tab-menu">
+<li class="tab-menu"><a href="https://www.packagetrackr.com/" title="Home" class="tab-menu radius">Home</a></li><li class="tab-menu-active"><a href="https://www.packagetrackr.com/track/ups" title="Track shipments" class="tab-menu-active radius">Track</a></li><li class="tab-menu"><a href="https://www.packagetrackr.com/feature/devices/touch" title="Packagetrackr features" class="tab-menu radius">Features</a></li><li class="tab-menu"><a href="https://www.packagetrackr.com/review/all" title="Carrier ratings" class="tab-menu radius">Carrier Ratings</a></li><li class="tab-menu"><a href="https://www.packagetrackr.com/user/me" title="My shipments" class="tab-menu radius">My Shipments</a></li></ul>
+</div>
+</div>
+</div>
+<div id="body-container" class="body-container-padding">
+<div id="body" class="body-limited-width">
+<div id="track-bar-container" class="font-normal">
+<div id="track-form-container">
+<fieldset class="flat">
+<form action="https://www.packagetrackr.com/track/" method="get" name="track">
+<div class="form-field-error-message hidden">
+<div class="CommonEmptyTrackingNumber"></div>
+</div>
+<div class="track-form-control-boxer" id="jss-carrier-choose" title="Select a carrier">
+<label class="track-form-jss-carrier-label jss-carrier-choose">
+<strong id="current-carrier">Auto Detect Carrier</strong>
+</label>
+<label class="track-form-element-more">▼</label>
+</div>
+<div id="track-form-control-submit">
+<span title="reset" class="track-form-reset-button sprite-master" onclick="(function(){var g=function(id){return document.getElementById(id);},t=g('track-form-tracking-number');t.value='';t.select();g('jss-carrier-auto-value').checked=true;try{Packagetrackr.Homepage.highlightCarrier();}catch(e){}})();">&nbsp;</span>
+<input value="" name="submit" type="submit" title="Track your package" class="track-form-submit-button sprite-master"/> </div>
+<div id="track-form-tracking-number-container">
+<div id="track-form-tracking-number-inner-container" class="track-form-control-boxer"><input id="track-form-tracking-number" class="track-form-element " type="text" name="n" value="LM920934240CN" title="Type a tracking number..." onfocus="if(/^Type a tracking number...$/i.test(this.value)){this.value='';}" onblur="if(this.value==''){this.value='Type a tracking number...';}"/></div>
+</div>
+<div id="track-form-jss-carrier-container" class="hidden" style="z-index: 1000;">
+<div id="track-form-jss-carrier-content">
+<label id="jss-carrier-auto" class="track-form-jss-carrier-label jss-carrier-label">
+<input id="jss-carrier-auto-value" value="" type="radio" name="c" checked="checked"/> <span>Auto Detect Carrier</span>
+</label>
+<div class="jss-category-title"><strong>Global Carriers</strong></div>
+<label id="jss-carrier-ups" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="UPS" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>UPS</span>
+</label>
+<label id="jss-carrier-fedex" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="FedEx" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>FedEx</span>
+</label>
+<label id="jss-carrier-dhl" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="DHL" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>DHL</span>
+</label>
+<label id="jss-carrier-tnt" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="TNT" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>TNT</span>
+</label>
+<label id="jss-carrier-aramex" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="Aramex" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Aramex</span>
+</label>
+<label id="jss-carrier-parcelforce" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="Parcelforce" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Parcelforce</span>
+</label>
+<div class="jss-category-title"><strong>Express Mail Service (Postal)</strong></div>
+<label id="jss-carrier-usps" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="USPS" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<strong class="monospace">[US]</strong> <span>US Postal Service</span>
+</label>
+<label id="jss-carrier-auspost" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="Auspost" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<strong class="monospace">[AU]</strong> <span>Australia Post</span>
+</label>
+<label id="jss-carrier-canadapost" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="CanadaPost" type="radio" class="track-form-jss-carrier-element" name="c" checked=&quot;checked&quot; />
+<strong class="monospace">[CA]</strong> <span>Canada Post</span>
+</label>
+<label id="jss-carrier-chinapost" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="ChinaPost" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<strong class="monospace">[CN]</strong> <span>China Post</span>
+<sup>(beta)</sup>
+</label>
+<label id="jss-carrier-emscn" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="EMSCN" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<strong class="monospace">[CN]</strong> <span>EMS China</span>
+</label>
+<label id="jss-carrier-hongkongpost" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="HongkongPost" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<strong class="monospace">[HK]</strong> <span>Hongkong Post</span>
+</label>
+<label id="jss-carrier-indiapost" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="IndiaPost" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<strong class="monospace">[IN]</strong> <span>India Post</span>
+<sup>(beta)</sup>
+</label>
+<label id="jss-carrier-japanpost" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="JapanPost" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<strong class="monospace">[JP]</strong> <span>Japan Post</span>
+</label>
+<label id="jss-carrier-postdanmark" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="PostDanmark" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<strong class="monospace">[DK]</strong> <span>Post Danmark</span>
+</label>
+<label id="jss-carrier-postenno" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="Postenno" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<strong class="monospace">[NO]</strong> <span>Posten Norway</span>
+</label>
+<label id="jss-carrier-postense" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="Postense" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<strong class="monospace">[SE]</strong> <span>Posten Sweden</span>
+<sup>(beta)</sup>
+</label>
+<label id="jss-carrier-royalmail" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="RoyalMail" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<strong class="monospace">[UK]</strong> <span>Royal Mail</span>
+<sup>(beta)</sup>
+</label>
+<label id="jss-carrier-thailandpost" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="ThailandPost" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<strong class="monospace">[TH]</strong> <span>Thailand Post</span>
+</label>
+<div class="jss-category-title"><strong>Regional Carriers</strong></div>
+<label id="jss-carrier-a1international" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="A1International" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>A1 International</span>
+<sup>(beta)</sup>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-ceva" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="CEVA" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>CEVA</span>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-citylink" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="CityLink" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>City Link</span>
+<div class="jss-region">Tracking: (<i class="monospace">
+UK </i>)</div>
+</label>
+<label id="jss-carrier-dhlde" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="DHLDE" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>DHL Germany</span>
+<sup>(beta)</sup>
+<div class="jss-region">Tracking: (<i class="monospace">
+DE /
+Europe </i>)</div>
+</label>
+<label id="jss-carrier-globalmail" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="GlobalMail" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>DHL Global Mail</span>
+<div class="jss-region">Tracking: (<i class="monospace">
+US /
+NorthAmerica </i>)</div>
+</label>
+<label id="jss-carrier-dhluk" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="DHLUK" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>DHL UK Domestic</span>
+<div class="jss-region">Tracking: (<i class="monospace">
+UK /
+Europe </i>)</div>
+</label>
+<label id="jss-carrier-dpd" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="DPD" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>DPD</span>
+<div class="jss-region">Tracking: (<i class="monospace">
+GE /
+UK </i>)</div>
+</label>
+<label id="jss-carrier-dynamex" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="Dynamex" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Dynamex</span>
+<sup>(beta)</sup>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-ensenda" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="Ensenda" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Ensenda</span>
+<sup>(beta)</sup>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-smartpost" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="SmartPost" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>FedEx SmartPost</span>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-gso" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="GSO" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Golden State Overnight</span>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-hdnl" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="HDNL" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Home Delivery Network</span>
+<sup>(beta)</sup>
+<div class="jss-region">Tracking: (<i class="monospace">
+UK </i>)</div>
+</label>
+<label id="jss-carrier-lasership" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="Lasership" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Lasership</span>
+<sup>(beta)</sup>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-mailexpress" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="MailExpress" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Mail Express</span>
+</label>
+<label id="jss-carrier-ontrac" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="OnTrac" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>OnTrac</span>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-osm" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="OSM" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>OSM Worldwide</span>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-prestige" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="Prestige" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Prestige</span>
+<sup>(beta)</sup>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-purolator" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="Purolator" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Purolator</span>
+<div class="jss-region">Tracking: (<i class="monospace">
+CA /
+NorthAmerica </i>)</div>
+</label>
+<label id="jss-carrier-speedee" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="SpeeDee" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Spee-Dee Delivery</span>
+<sup>(beta)</sup>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-streamlite" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="Streamlite" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Streamlite</span>
+<sup>(beta)</sup>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-toll" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="Toll" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>Toll</span>
+<div class="jss-region">Tracking: (<i class="monospace">
+AU /
+Aisa </i>)</div>
+</label>
+<label id="jss-carrier-mailinnovations" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="MailInnovations" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>UPS MailInnovations</span>
+<div class="jss-region">Tracking: (<i class="monospace">
+US </i>)</div>
+</label>
+<label id="jss-carrier-yrc" class="track-form-jss-carrier-label jss-carrier-label">
+<input value="YRC" type="radio" class="track-form-jss-carrier-element" name="c"/>
+<span>YRC</span>
+<sup>(beta)</sup>
+<div class="jss-region">Tracking: (<i class="monospace">
+US /
+NorthAmerica </i>)</div>
+</label>
+</div>
+</div>
+</form>
+</fieldset>
+</div>
+</div>
+<div id="common-error-message-container" class="font-normal">
+ 
+</div>
+<div id="notification-container" class="font-normal">
+</div>
+<div id="body-content-container" class="font-normal">
+<div id="signup-promotion">
+Sync your tracking numbers and check them anywhere. <a href="https://www.packagetrackr.com/user/signup?cmp=track" title="Sign up for Packagetrackr" class="radius content-dark">Sign up for an account</a>. It's free and easy!
+</div>
+<div id="track-info-container">
+<div style="border-bottom:5px solid #d8d8d8;">
+<div class="noprint google-adsense-noborder" style="text-align:left;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" data-ad-client="ca-pub-9424572524481098" data-ad-slot="2716767538" style="display:inline-block;width:728px;height:90px"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+</div>
+<div class="hslice" id="CanadaPost-LM920934240CN">
+<div class="hidden entry-content webslice-show webslice-header" style="display:none;">
+<a href="https://www.packagetrackr.com/" title="Packagetrackr" class="image"><img src="https://r2.ptrss.com/img/iphone-logo.png" alt="Packagetrackr" class="logo" width="140" height="26" style="vertical-align:middle;"/></a>
+<span style="margin: 15px 0 0 25px; display: inline-block;" class="font-normal">
+<a href="https://www.packagetrackr.com/user/signin" class="nav radius" title="Sign in">Sign in</a> |
+<a href="https://www.packagetrackr.com/user/signup" class="nav radius" title="Sign up for Packagetrackr">Sign up</a>
+</span>
+</div>
+<div class="entry-content webslice-canvas" style="background:#d0d0d0;">
+<a name="map"></a>
+<table style="margin-bottom:3px;" cellspacing="0">
+<tr>
+<td style="width:48px;">
+<a class="carrier-link" href="https://www.packagetrackr.com/track/canada-post" title="Canada Post"><span class="sprite-carrier canadapost"><strong class="sprite-carrier-text">Track Canada Post Packages</strong></span></a>
+</td>
+<td style="width:200px;"><span class="sprite-master IRL">&nbsp;</span><span class="sprite-master APL">&nbsp;</span><span class="sprite-master ITL">&nbsp;</span><span class="sprite-master ODL">&nbsp;</span><span class="sprite-master DLL">&nbsp;</span></td>
+<td class="webslice-hidden">
+<div id="status-description-radius" class="DL-bg">Delivered</div>
+</td>
+<td class="hidden webslice-show">
+<a href="https://www.packagetrackr.com/track/canadapost/LM920934240CN.survey" class="content-dark radius" style="padding:5px;" title="Rate Canada Post on this shipment">
+<span class="sprite-master rate-icon"> &nbsp;</span><span>Rate it!</span>
+</a>
+<a href="https://www.packagetrackr.com/track/canadapost/LM920934240CN.rss" title="Track your package via rss feed" class="radius content-dark" style="padding:5px;">
+<span class="sprite-master rss-icon">&nbsp;</span>
+</a>
+</td>
+<td class="webslice-hidden">
+<div id="rss-button" class="IR-bg">
+<a href="https://www.packagetrackr.com/track/canadapost/LM920934240CN.rss" title="Track your package via rss feed" class="rss-button">
+<span class="sprite-master rss-icon">&nbsp;</span>
+</a>
+</div>
+<div id="ical-button" class="IR-bg">
+<a href="webcal://www.packagetrackr.com/track/canadapost/LM920934240CN.ics" title="Track your package via iCalendar feed" class="ical-button">
+<span class="sprite-master ical-icon">&nbsp;</span>
+</a>
+</div>
+<div id="rate-carrier-button" class="IR-bg">
+<a href="https://www.packagetrackr.com/track/canadapost/LM920934240CN.survey" rel="Packagetrackr.Track.UI.showSurvey" class="url2click rate-carrier-button" title="Rate Canada Post on this shipment">
+<strong>Overall Rating:</strong> <span class="sprite-master star-icon">*</span> <span class="sprite-master star-icon">*</span> <span class="sprite-master star-icon">*</span> <span class="sprite-master star-gray-icon">*</span> <span class="sprite-master star-gray-icon">*</span> <span class="value-title" title="3"/> <strong>Rate it!</strong>
+</a>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<table cellspacing="0">
+<tr>
+<td class="track-info-table-header-left">
+Shipment Summary
+</td>
+<td class="track-info-table-header-right">
+<div id="track-maps-screen-toggle" style="min-height:20px;">
+&nbsp;
+<a href="#map" id="track-maps-screen-full" title="Change map size" rel="Packagetrackr.Track.UI.toggleMapScreen" class="url2click sprite-master largermaps"><span class="hidden">Large Map</span></a>
+<a href="#map" id="track-maps-screen-inner" style="display:none;" title="Change map size" rel="Packagetrackr.Track.UI.toggleMapScreen" class="url2click sprite-master normalmaps"><span class="hidden">Normal Map</span></a>
+<a href="https://www.packagetrackr.com/help/map" title="View map icon description" target="packagetrackr_help" class="sprite-master qmark-icon url2click" rel="Packagetrackr.User.Me.showLightBox"><span class="hidden">Map Legend</span></a>
+</div>
+</td>
+</tr>
+</table>
+<table cellspacing="0" id="track-info-summary-map-container">
+<tr>
+<td id="track-info-summary-container">
+<div class="entry-content webslice-canvas">
+<table id="track-info-summary" cellspacing="0">
+<tr class="webslice-hidden">
+<th class="track-info-summary-name links-name" style="background:#d2d2d2;">Bookmark & Share:</th>
+<td class="track-info-summary-value links-value" style="background:#d2d2d2;">
+ 
+<div class="addthis_toolbox addthis_32x32_style addthis_toolbox addthis_default_style" style="min-height:35px;" addthis:url="https://www.packagetrackr.com/track/CanadaPost/LM920934240CN" addthis:title="Packagetrackr knows where my stuff is">
+<a class="addthis_button_email image" style="padding:0 3px 0 0;"></a>
+<a class="addthis_button_twitter image" style="padding:0 3px;"></a>
+<a class="addthis_button_facebook image" style="padding:0 3px;"></a>
+<a class="addthis_button_print image" style="padding:0 3px;"></a>
+<a class="addthis_button_compact image" style="padding:0 3px;"></a>
+<a class="addthis_button_facebook_like image" style="padding:5px;"></a>
+</div>
+</td>
+</tr>
+<tr class="webslice-hidden">
+<th class="track-info-summary-name links-name">Official Links:</th>
+<td class="track-info-summary-value links-value">
+<a href="https://www.packagetrackr.com/track/canadapost/LM920934240CN.official" class="external radius content-dark" title="Track this shipment on official site" rel="nofollow" target="_blank">Official Tracking</a>
+&nbsp;
+|&nbsp; <a href="https://www.canadapost.ca/cpotools/apps/track/personal/usingTrack" class="nonAjax external radius content-dark" title="Help" rel="nofollow" target="_blank">Help</a>
+</td>
+</tr>
+<tr class="webslice-hidden">
+<th class="track-info-summary-name links-name2">Official Contact:</th>
+<td class="track-info-summary-value links-value2">
+[CA] +1 (866)-607-6301
+| <a href="https://www.canadapost.ca/cpo/mc/aboutus/corporate/contactus.jsf" title="Contact Canada Post" class="nonAjax external radius content-dark" rel="nofollow" target="contactcarrier">More..</a>
+</td>
+</tr>
+<tr class="hidden" id="nickname-container">
+<th class="track-info-summary-name">Nickname:</th>
+<td class="track-info-summary-value" id="nickname-value"></td>
+</tr>
+<tr>
+<th class="track-info-summary-name">Carrier:</th>
+<td class="track-info-summary-value entry-title"><a href="https://www.packagetrackr.com/track/canada-post" title="Canada Post Tracking">Canada Post</a></td>
+</tr>
+<tr>
+<th class="track-info-summary-name">Tracking number:</th>
+<td class="track-info-summary-value entry-title">LM920934240CN</td>
+</tr>
+<tr>
+<th class="track-info-summary-name">Status: <a href="https://www.packagetrackr.com/help/status" title="Delivery status references" target="packagetrackr_help" class="sprite-master url2click qmark-icon" style="margin-top:5px;" rel="Packagetrackr.User.Me.showLightBox">&nbsp;</a></th>
+<td class="track-info-summary-value">
+<div id="track-info-status" class="DL-color"><span class="DL sprite-master">&nbsp;</span>Delivered</div>
+<div class="DL-color">
+The shipment has been delivered to its destination.
+</div>
+</td>
+</tr>
+<tr>
+<th class="track-info-summary-name">Shipped from:</th>
+<td class="track-info-summary-value">510321, CHINA</td>
+</tr>
+<tr>
+<th class="track-info-summary-name">Shipped on:</th>
+<td class="track-info-summary-value">Thursday, December 4, 2014 8:58 PM</td>
+</tr>
+<tr>
+<th class="track-info-summary-name">Delivery to:</th>
+<td class="track-info-summary-value">KAMLOOPS, CA</td>
+</tr>
+<tr>
+<th class="track-info-summary-name">Delivered on:</th>
+<td class="track-info-summary-value">Thursday, December 11, 2014 9:14 AM</td>
+</tr>
+<tr>
+<th class="track-info-summary-name">Service:</th>
+<td class="track-info-summary-value">CANADA POST</td>
+</tr>
+<tr>
+<th class="track-info-summary-name">Updated:</th>
+<td class="track-info-summary-value">
+<span class="NA-color"> 3 minutes ago.</span>
+<a href="https://www.packagetrackr.com/track/canadapost/LM920934240CN!!14200253689641344" title="Update tracking information immediately" class="radius content-dark webslice-hidden" rel="nofollow">Refresh</a>
+</td>
+</tr>
+<tr class="webslice-hidden">
+<td class="track-info-summary-value" colspan="2" style="padding-top:10px;">
+<span id="report-issues-button">
+<a href="#nowhere" title="Report a Glitch" rel="Packagetrackr.Track.UI.showReport" class="report-issues-button">Report a Glitch</a>
+</span>
+<div id="report-issues">
+<form action="https://www.packagetrackr.com/track/report" name="report" method="post" target="inlinepostwindow">
+<input type="hidden" name="p" value="Fullsite"/>
+<input type="hidden" name="n" value="LM920934240CN"/>
+<input type="hidden" name="c" value="CanadaPost"/>
+<div class="form-title">We've added this form so that you can quickly alert us to problems with our site.
+<select id="report-issue-type" name="report_issue_type" onchange="(function(){jQuery('.report-issue-content').hide();var v=jQuery('#report-issue-type').val();if (v==3){jQuery('#report-issue-delivery').show();}else if(v>0){jQuery('#report-issue-form').show();}})();">
+<option value="0">What's the problem all about?</option>
+<option value="1">Website</option>
+<option value="2">Google Maps</option>
+<option value="3">Delivery</option>
+</select>
+</div>
+<div id="report-issue-delivery" class="form-text report-issue-content hidden" style="line-height:1.6;">
+As much as we love to help, if your problem is related to the delivery of your package, that's outside of our control.
+Please contact <strong>Canada Post</strong> directly at <strong>[CA] +1 (866)-607-6301</strong>.
+You can also leave your feedback about <strong>Canada Post</strong> <a href="#survey" onclick="jQuery('#report-issue-form').toggle();return false;" class="radius label">here</a>.
+</div>
+<div id="report-issue-form" class="report-issue-content hidden">
+<div class="form-title">* Email</div>
+<div class="form-text">
+<input type="text" name="email" class="form-text-element"/>
+</div>
+<div class="form-title">* Please describe the issue with us:</div>
+<div class="form-textarea">
+<textarea name="note" cols="10" rows="5" id="report-issues-note" class="form-textarea-element"></textarea>
+</div>
+<div class="form-button">
+<input type="submit" name="submit" value="Submit feedback" title="Submit feedback"/> or <a href="#nowhere" onclick="jQuery('.report-issue-content').hide();return false;" class="radius label">Cancel</a>
+</div>
+</div>
+</form>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td id="track-maps-container">
+<div id="maploading" style="margin-left:auto;">Loading...</div>
+<div id="track-maps-google-maps-container" style="min-height:390px;">&nbsp;</div>
+</td>
+</tr>
+</table>
+<div class="track-info-table-header">Delivery Progress</div>
+<table cellspacing="0">
+<tr>
+<td id="track-info-progress-container" style="width:auto;">
+<table id="track-info-progress" cellspacing="0">
+<tr>
+<td class="track-info-progress even  DL-color first">
+<a name="progress1"></a>
+<div class="trackr-info-progress-location track-info-showmaps"><strong>KAMLOOPS, BC, CANADA</strong></div>
+<div class="track-info-progress-date   DL-color first">Thursday, December 11, 2014 9:14 AM</div>
+<div class="track-info-progress-desc">ITEM SUCCESSFULLY DELIVERED TO RECIPIENT&#39;S FRONT DOOR</div>
+</td>
+</tr>
+<tr>
+<td class="track-info-progress even ">
+<a name="progress2"></a>
+<div class="track-info-progress-date  track-info-progress-date-color ">Thursday, December 11, 2014 8:21 AM</div>
+<div class="track-info-progress-desc">ITEM OUT FOR DELIVERY</div>
+</td>
+</tr>
+<tr>
+<td class="track-info-progress even ">
+<a name="progress3"></a>
+<div class="track-info-progress-date  track-info-progress-date-color ">Thursday, December 11, 2014 5:19 AM</div>
+<div class="track-info-progress-desc">ITEM PROCESSED AT LOCAL DELIVERY FACILITY</div>
+</td>
+</tr>
+<tr>
+<td class="track-info-progress odd ">
+<a name="progress4"></a>
+<div class="trackr-info-progress-location track-info-showmaps"><strong>RICHMOND, BC, CANADA</strong></div>
+<div class="track-info-progress-date  track-info-progress-date-color ">Wednesday, December 10, 2014 4:15 AM</div>
+<div class="track-info-progress-desc">IN TRANSIT</div>
+</td>
+</tr>
+<tr>
+<td class="track-info-progress odd ">
+<a name="progress5"></a>
+<div class="track-info-progress-date  track-info-progress-date-color ">Wednesday, December 10, 2014 1:54 AM</div>
+<div class="track-info-progress-desc">ITEM PROCESSED</div>
+</td>
+</tr>
+<tr>
+<td class="track-info-progress odd ">
+<a name="progress6"></a>
+<div class="track-info-progress-date  track-info-progress-date-color ">Tuesday, December 9, 2014 9:10 AM</div>
+<div class="track-info-progress-desc">ITEM PROCESSED AT POSTAL FACILITY
+ITEM WAS RELEASED BY CUSTOMS AND IS NOW WITH CANADA POST FOR PROCESSING</div>
+</td>
+</tr>
+<tr>
+<td class="track-info-progress odd ">
+<a name="progress7"></a>
+<div class="track-info-progress-date  track-info-progress-date-color ">Monday, December 8, 2014 3:44 PM</div>
+<div class="track-info-progress-desc">ITEM HAS ARRIVED IN CANADA AND WAS SENT FOR FURTHER PROCESSING</div>
+</td>
+</tr>
+<tr>
+<td class="track-info-progress even ">
+<a name="progress8"></a>
+<div class="trackr-info-progress-location track-info-showmaps"><strong>CONCORD, NC, USA</strong></div>
+<div class="track-info-progress-date  track-info-progress-date-color ">Saturday, December 6, 2014 4:27 PM</div>
+<div class="track-info-progress-desc">INTERNATIONAL ITEM HAS LEFT ORIGINATING COUNTRY AND IS EN ROUTE TO CANADA</div>
+</td>
+</tr>
+<tr>
+<td class="track-info-progress odd ">
+<a name="progress9"></a>
+<div class="trackr-info-progress-location track-info-showmaps"><strong>510321, CHINA</strong></div>
+<div class="track-info-progress-date  track-info-progress-date-color ">Thursday, December 4, 2014 8:58 PM</div>
+<div class="track-info-progress-desc">INTERNATIONAL ITEM MAILED IN ORIGINATING COUNTRY</div>
+</td>
+</tr>
+</table>
+</td>
+<td id="track-info-progress-container-right" style="width:346px;padding-top:5px;">
+<script type='text/javascript'>
+					(function () {
+						var useSSL = 'https:' == document.location.protocol;
+						var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+						document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+					})();
+				</script>
+<script type='text/javascript'>
+					googletag.defineSlot('/20874311/Rectangle', [336, 280], 'div-gpt-ad-1418092942121-0').addService(googletag.pubads());
+					googletag.pubads().enableSyncRendering();
+					googletag.enableServices();
+				</script>
+ 
+<div id='div-gpt-ad-1418092942121-0' style='width:336px; height:280px;margin:auto;'>
+<script type='text/javascript'>
+					googletag.display('div-gpt-ad-1418092942121-0');
+				</script>
+</div>
+</td>
+</tr>
+</table>
+<div id="track-info-provider">
+<div>Tracking information provided by Canada Post on Wed, 31 Dec 2014 11:20:50 GMT</div>
+<div>
+<div class="noprint google-adsense-noborder" style="text-align:left;padding:5px 0 0 0;background:none;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" data-ad-client="ca-pub-1210287231665009" data-ad-slot="4348884774" style="display:inline-block;width:728px;height:90px"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+</div>
+</div>
+<span class="ttl">60</span>
+</div>
+</div> </div>
+</div>
+<div style="position: absolute; top: 0; right: 0;" class="noprint">
+<div class="noprint google-adsense-noborder" style="padding-right:0;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" data-ad-client="ca-pub-9424572524481098" data-ad-slot="9281320903" style="display:inline-block;width:300px;height:600px"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+</div>
+</div>
+<div id="footer-container">
+<div id="footer-section" style="margin-left:auto;padding-right:0;">
+<div id="footer" class="font-normal limited-width">
+<div id="footer-about">
+<h1>About Packagetrackr</h1>
+<p>
+Packagetrackr is an all-in-one package tracking tool for all your shipments. Packagetrackr will remember all of your tracking numbers and pull delivery status information from dozens of carrier with extra features not offered on the carriers&#39; sites.
+</p>
+<h2 id="slogan2">
+<a href="https://www.packagetrackr.com/" class="slogan" style="color:#999;">UNIVERSAL PACKAGE TRACKING SERVICE</a>
+</h2>
+<div>Packagetrackr.com &copy; 2014 | A Fara Inc. Company</div>
+</div>
+<div id="footer-links" style="float:right;margin-left:auto;">
+<ul class="footer-links-ul-column">
+<li class="footer-links-column">
+<h2>Company</h2>
+<ul class="footer-links-ul-links">
+<li><a href="https://www.packagetrackr.com/about" class="light radius" rel="nofollow" title="About Packagetrackr">About Us</a></li>
+<li><a href="https://www.packagetrackr.com/feedback/" class="light radius" rel="nofollow" title="Contact Packagetrackr">Contact Us</a></li>
+<li><a href="https://www.packagetrackr.com/terms" class="light radius" rel="nofollow" title="Terms of Service">Terms of Service</a></li>
+<li><a href="https://www.packagetrackr.com/privacy" class="light radius" rel="nofollow" title="Privacy Policy">Privacy Policy</a></li>
+</ul>
+</li>
+<li class="footer-links-column">
+<h2>Features</h2>
+<ul class="footer-links-ul-links">
+<li><a href="https://www.packagetrackr.com/whatsnew" class="shared radius" title="What's new for Packagetrackr">What's New</a></li>
+<li><a href="https://www.packagetrackr.com/feature/plugins/bookmarklet" rel="nofollow" class="light radius" title="Plugins">Plugins</a></li>
+<li><a href="https://www.packagetrackr.com/feature/notifications/email" rel="nofollow" class="light radius" title="Notifications">Notifications</a></li>
+<li><a href="https://www.packagetrackr.com/feature/forwarding/email" rel="nofollow" class="light radius" title="Forwarding">Forwarding</a></li>
+</ul>
+</li>
+<li class="footer-links-column">
+<h2>Sites</h2>
+<ul class="footer-links-ul-links">
+<li><a href="https://i.packagetrackr.com/touch/a/" class="light radius" title="Touch site (iPhone/iPod/iPad/Android)">Touch Site</a></li>
+<li><a href="https://m.packagetrackr.com/m/" class="light radius" title="Mobile site">Mobile Site</a></li>
+<li><a href="http://blog.packagetrackr.com" class="light radius" rel="nofollow" title="Packagetrackr Blog">Our Blog</a></li>
+<li><a href="http://facebook.com/packagetrackr" class="light radius" rel="nofollow" title="Facebook" target="packagetrackr_facebook">Be a fan on Facebook</a></li>
+<li><a href="http://itunes.apple.com/us/app/fara-mobile/id488587247?ls=1&mt=8&at=10lpce" target="packagetrackr_iphone_app" rel="nofollow" style="background:url('https://r1.ptrss.com/img/iphone-badge.png') no-repeat right;display:block;margin-top:10px;height:41px;text-decoration:none;width:140px;">&nbsp</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="api" class="noprint" style="display: none;">
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://r2.ptrss.com/js/renative-1.0.005.min.js"></script>
+<script type="text/javascript" src="https://r1.ptrss.com/js/0.1063/packagetrackr-website.min.js"></script>
+<script type="text/javascript" src="https://r2.ptrss.com/js/0.1063/packagetrackr-track-v3.min.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAU_LMF3kHfuJn-Wez5A7TfhTunnL5XdLD0hDbeceLyHxU0tAw5RTmvKfEJrPNEKVI2u6zWaGTk0t3Cw"></script>
+<script type="text/javascript">
+		//<![CDATA[
+			google.load("maps", "3.x", {"other_params":"sensor=false"});
+			google.setOnLoadCallback( function(){ 
+				new Packagetrackr.Track.Maps.GoolgeMapper( Packagetrackr.Track.Settings.GoogleMaps ).init();
+				Packagetrackr.Track.renderMaps("{\"packageId\":17790078342543803090,\"packageKey\":\"f6e30dff25b182d2\",\"language\":\"en\",\"carrier\":\"CanadaPost\",\"carrierDescription\":\"Canada Post\",\"trackingNumber\":\"LM920934240CN\",\"additionalTrackingNumber\":null,\"onTimeMessage\":\"The shipment has been delivered to its destination.\",\"sender\":null,\"origin\":{\"city\":\"510321\",\"state\":null,\"country\":\"CHINA\",\"zipcode\":null,\"fullLocation\":\"510321, CHINA\",\"geocode\":{\"key\":null,\"lat\":0,\"lng\":0,\"address\":null},\"address\":null,\"hideMap\":false,\"countryOnly\":false,\"hash\":\"5da7240a10838e0a\"},\"pickupDate\":{\"raw\":\"Thu, 04 Dec 2014 20:58:00 GMT\",\"display\":\"Thursday, December 4, 2014 8:58 PM\",\"timeZone\":null,\"valid\":true},\"recipient\":null,\"destination\":{\"city\":\"KAMLOOPS\",\"state\":null,\"country\":\"CA\",\"zipcode\":null,\"fullLocation\":\"KAMLOOPS, CA\",\"geocode\":{\"key\":\"aa579c18a2dc158e\",\"lat\":50.676609,\"lng\":-120.338988,\"address\":\"KAMLOOPS, BC, CANADA\"},\"address\":null,\"hideMap\":false,\"countryOnly\":false,\"hash\":\"aa579c18a2dc158e\"},\"deliveryDate\":{\"raw\":\"Thu, 11 Dec 2014 09:14:00 GMT\",\"display\":\"Thursday, December 11, 2014 9:14 AM\",\"timeZone\":null,\"valid\":true},\"deliveryLocation\":null,\"signedBy\":null,\"eSTDeliveryDate\":{\"raw\":\"Thu, 11 Dec 2014 00:00:00 GMT\",\"display\":\"Thursday, December 11, 2014\",\"timeZone\":null,\"valid\":true},\"serviceType\":\"CANADA POST\",\"weight\":null,\"statusCode\":\"DL\",\"statusDescription\":\"Delivered\",\"packageProgress\":[{\"location\":{\"city\":\"KAMLOOPS\",\"state\":null,\"country\":\"CA\",\"zipcode\":null,\"fullLocation\":\"KAMLOOPS, CA\",\"geocode\":{\"key\":\"aa579c18a2dc158e\",\"lat\":50.676609,\"lng\":-120.338988,\"address\":\"KAMLOOPS, BC, CANADA\"},\"address\":null,\"hideMap\":false,\"countryOnly\":false,\"hash\":\"aa579c18a2dc158e\"},\"processDate\":{\"raw\":\"Thu, 11 Dec 2014 09:14:00 GMT\",\"display\":\"Thursday, December 11, 2014 9:14 AM\",\"timeZone\":null,\"valid\":true},\"description\":\"ITEM SUCCESSFULLY DELIVERED TO RECIPIENT'S FRONT DOOR\",\"note\":null,\"statusCode\":\"DL\",\"internalStatusCode\":\"NA\",\"timestamp\":14182892400000000},{\"location\":{\"city\":\"KAMLOOPS\",\"state\":null,\"country\":\"CA\",\"zipcode\":null,\"fullLocation\":\"KAMLOOPS, CA\",\"geocode\":{\"key\":\"aa579c18a2dc158e\",\"lat\":50.676609,\"lng\":-120.338988,\"address\":\"KAMLOOPS, BC, CANADA\"},\"address\":null,\"hideMap\":false,\"countryOnly\":false,\"hash\":\"aa579c18a2dc158e\"},\"processDate\":{\"raw\":\"Thu, 11 Dec 2014 08:21:00 GMT\",\"display\":\"Thursday, December 11, 2014 8:21 AM\",\"timeZone\":null,\"valid\":true},\"description\":\"ITEM OUT FOR DELIVERY\",\"note\":null,\"statusCode\":\"OD\",\"internalStatusCode\":\"NA\",\"timestamp\":14182860600000000},{\"location\":{\"city\":\"KAMLOOPS\",\"state\":null,\"country\":\"CA\",\"zipcode\":null,\"fullLocation\":\"KAMLOOPS, CA\",\"geocode\":{\"key\":\"aa579c18a2dc158e\",\"lat\":50.676609,\"lng\":-120.338988,\"address\":\"KAMLOOPS, BC, CANADA\"},\"address\":null,\"hideMap\":false,\"countryOnly\":false,\"hash\":\"aa579c18a2dc158e\"},\"processDate\":{\"raw\":\"Thu, 11 Dec 2014 05:19:00 GMT\",\"display\":\"Thursday, December 11, 2014 5:19 AM\",\"timeZone\":null,\"valid\":true},\"description\":\"ITEM PROCESSED AT LOCAL DELIVERY FACILITY\",\"note\":null,\"statusCode\":\"IT\",\"internalStatusCode\":\"NA\",\"timestamp\":14182751400000000},{\"location\":{\"city\":\"RICHMOND\",\"state\":null,\"country\":\"CA\",\"zipcode\":null,\"fullLocation\":\"RICHMOND, CA\",\"geocode\":{\"key\":\"bb59afe986802da3\",\"lat\":49.170171,\"lng\":-123.136579,\"address\":\"RICHMOND, BC, CANADA\"},\"address\":null,\"hideMap\":false,\"countryOnly\":false,\"hash\":\"bb59afe986802da3\"},\"processDate\":{\"raw\":\"Wed, 10 Dec 2014 04:15:00 GMT\",\"display\":\"Wednesday, December 10, 2014 4:15 AM\",\"timeZone\":null,\"valid\":true},\"description\":\"IN TRANSIT\",\"note\":null,\"statusCode\":\"IT\",\"internalStatusCode\":\"NA\",\"timestamp\":14181849000000000},{\"location\":{\"city\":\"RICHMOND\",\"state\":null,\"country\":\"CA\",\"zipcode\":null,\"fullLocation\":\"RICHMOND, CA\",\"geocode\":{\"key\":\"bb59afe986802da3\",\"lat\":49.170171,\"lng\":-123.136579,\"address\":\"RICHMOND, BC, CANADA\"},\"address\":null,\"hideMap\":false,\"countryOnly\":false,\"hash\":\"bb59afe986802da3\"},\"processDate\":{\"raw\":\"Wed, 10 Dec 2014 01:54:00 GMT\",\"display\":\"Wednesday, December 10, 2014 1:54 AM\",\"timeZone\":null,\"valid\":true},\"description\":\"ITEM PROCESSED\",\"note\":null,\"statusCode\":\"IT\",\"internalStatusCode\":\"NA\",\"timestamp\":14181764400000000},{\"location\":{\"city\":\"RICHMOND\",\"state\":null,\"country\":\"CA\",\"zipcode\":null,\"fullLocation\":\"RICHMOND, CA\",\"geocode\":{\"key\":\"bb59afe986802da3\",\"lat\":49.170171,\"lng\":-123.136579,\"address\":\"RICHMOND, BC, CANADA\"},\"address\":null,\"hideMap\":false,\"countryOnly\":false,\"hash\":\"bb59afe986802da3\"},\"processDate\":{\"raw\":\"Tue, 09 Dec 2014 09:10:00 GMT\",\"display\":\"Tuesday, December 9, 2014 9:10 AM\",\"timeZone\":null,\"valid\":true},\"description\":\"ITEM PROCESSED AT POSTAL FACILITY\u005cu000aITEM WAS RELEASED BY CUSTOMS AND IS NOW WITH CANADA POST FOR PROCESSING\",\"note\":null,\"statusCode\":\"AS\",\"internalStatusCode\":\"NA\",\"timestamp\":14181162000000000},{\"location\":{\"city\":\"RICHMOND\",\"state\":null,\"country\":\"CA\",\"zipcode\":null,\"fullLocation\":\"RICHMOND, CA\",\"geocode\":{\"key\":\"bb59afe986802da3\",\"lat\":49.170171,\"lng\":-123.136579,\"address\":\"RICHMOND, BC, CANADA\"},\"address\":null,\"hideMap\":false,\"countryOnly\":false,\"hash\":\"bb59afe986802da3\"},\"processDate\":{\"raw\":\"Mon, 08 Dec 2014 15:44:00 GMT\",\"display\":\"Monday, December 8, 2014 3:44 PM\",\"timeZone\":null,\"valid\":true},\"description\":\"ITEM HAS ARRIVED IN CANADA AND WAS SENT FOR FURTHER PROCESSING\",\"note\":null,\"statusCode\":\"IT\",\"internalStatusCode\":\"NA\",\"timestamp\":14180534400000000},{\"location\":{\"city\":\"CNCAND\",\"state\":null,\"country\":\"CHINA\",\"zipcode\":null,\"fullLocation\":\"CNCAND, CHINA\",\"geocode\":{\"key\":\"73a7bef9fa0272fd\",\"lat\":35.4087517,\"lng\":-80.579511,\"address\":\"CONCORD, NC, USA\"},\"address\":null,\"hideMap\":false,\"countryOnly\":false,\"hash\":\"73a7bef9fa0272fd\"},\"processDate\":{\"raw\":\"Sat, 06 Dec 2014 16:27:00 GMT\",\"display\":\"Saturday, December 6, 2014 4:27 PM\",\"timeZone\":null,\"valid\":true},\"description\":\"INTERNATIONAL ITEM HAS LEFT ORIGINATING COUNTRY AND IS EN ROUTE TO CANADA\",\"note\":null,\"statusCode\":\"IT\",\"internalStatusCode\":\"NA\",\"timestamp\":14178832200000000},{\"location\":{\"city\":\"510321\",\"state\":null,\"country\":\"CHINA\",\"zipcode\":null,\"fullLocation\":\"510321, CHINA\",\"geocode\":{\"key\":null,\"lat\":0,\"lng\":0,\"address\":null},\"address\":null,\"hideMap\":false,\"countryOnly\":false,\"hash\":\"5da7240a10838e0a\"},\"processDate\":{\"raw\":\"Thu, 04 Dec 2014 20:58:00 GMT\",\"display\":\"Thursday, December 4, 2014 8:58 PM\",\"timeZone\":null,\"valid\":true},\"description\":\"INTERNATIONAL ITEM MAILED IN ORIGINATING COUNTRY\",\"note\":null,\"statusCode\":\"IT\",\"internalStatusCode\":\"NA\",\"timestamp\":14177266800000000}],\"latestProgress\":{\"location\":{\"city\":\"KAMLOOPS\",\"state\":null,\"country\":\"CA\",\"zipcode\":null,\"fullLocation\":\"KAMLOOPS, CA\",\"geocode\":{\"key\":\"aa579c18a2dc158e\",\"lat\":50.676609,\"lng\":-120.338988,\"address\":\"KAMLOOPS, BC, CANADA\"},\"address\":null,\"hideMap\":false,\"countryOnly\":false,\"hash\":\"aa579c18a2dc158e\"},\"processDate\":{\"raw\":\"Thu, 11 Dec 2014 09:14:00 GMT\",\"display\":\"Thursday, December 11, 2014 9:14 AM\",\"timeZone\":null,\"valid\":true},\"description\":\"ITEM SUCCESSFULLY DELIVERED TO RECIPIENT'S FRONT DOOR\",\"note\":null,\"statusCode\":\"DL\",\"internalStatusCode\":\"NA\",\"timestamp\":14182892400000000},\"successful\":true,\"yearMonth\":201412,\"trackDate\":\"Wed, 31 Dec 2014 11:20:50 GMT\",\"updateDate\":{\"raw\":\"Wed, 31 Dec 2014 11:20:50 GMT\",\"display\":\"Wednesday, December 31, 2014 11:20 AM\",\"timeZone\":null,\"valid\":true},\"carrierPhoneNumber\":\"[CA] +1 (866)-607-6301\",\"processDate\":{\"raw\":\"Thu, 11 Dec 2014 09:14:00 GMT\",\"display\":\"Thursday, December 11, 2014 9:14 AM\",\"timeZone\":null,\"valid\":true},\"processDescription\":\"ITEM SUCCESSFULLY DELIVERED TO RECIPIENT'S FRONT DOOR\",\"partner\":null,\"reference\":null,\"returnToShipper\":false,\"updateTimestamp\":14182892400000000,\"pOD\":false,\"duplicated\":false,\"reused\":false,\"location\":\"<span class=\u005c\"asof\u005c\">to</span> <span class=\u005c\"location\u005c\">KAMLOOPS, BC, CANADA</span>\",\"formattedLocation\":{\"fromPrefix\":\"to\",\"fromLocation\":\"KAMLOOPS, BC, CANADA\",\"toPrefix\":null,\"toLocation\":\"\"},\"version\":1,\"map\":\"http://maps.googleapis.com/maps/api/staticmap?sensor=false&zoom=10&size=287x140&markers=icon%3ahttp%3a%2f%2fr.ptrss.com%2fimg%2fnpackage.png%7c50.676609%2c-120.338988\",\"serviceProvider\":\"[PACKAGETRACKR.COM]:[TRACK]:(WIN-0D3G52S61TP)\",\"ignoreNotification\":false,\"captchaContextId\":0,\"autoDetect\":false}");
+			} );
+		
+			var addthis_config = { "data_track_clickback": true };
+			(function () {
+				var bd = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
+				var ga = document.createElement('script');
+				ga.type = "text/javascript";
+				ga.src = 'https://s7.addthis.com/js/250/addthis_widget.js#username=packagetrackr';
+				ga.async = true;
+				bd.appendChild(ga);
+			})();
+		//]]>								
+		</script>
+<script type="text/javascript">(function () { if (window.location.hash == "#rate") { Packagetrackr.Track.UI.showSurvey({ 'href': 'https://www.packagetrackr.com/track/canadapost/LM920934240CN.survey' }); } })();</script>
+<script type="text/javascript">
+		(function () {
+			var Web = Renative.framework.Sys.Web;
+			if (Web.Cookies.get("U").toString().length > 50) {
+				var dt = new Date();
+				var url = 'https://www.packagetrackr.com/user/package/get/LM920934240CN?c=CanadaPost&action=ADD';
+				var headers = { "output": "json", "Caller": "Packagetrackr.Web", "X-Ajax": "True" };
+				url += '&r=';
